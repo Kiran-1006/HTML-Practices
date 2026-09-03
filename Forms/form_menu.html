@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Menu
+        </title>
+        <style>
+        body{
+            padding: 10px;
+        }
+        </style>
+    </head>
+    <body style="border: 2px solid black";>
+        <h1>Dado Tea Lunch Special</h1>
+        <h3>Monday through Friday<br>
+            11am - 3pm<br>
+            $9.95 plus tax<br><br>
+
+            Includes sandwich,snack and drink.
+        </h3>
+        <form>
+            <fieldset>
+                <legend>Order Information</legend>
+
+                    <label>Name</label><br>
+                    <input type="text"><br><br>
+
+                    <input type="radio" name="here">Here <br>
+                    <input type="radio" name="here">TO GO   
+            </fieldset>
+        </form>
+            <form>
+                <fieldset>
+                <legend>Sandwich</legend>
+                
+                    <lebel>Monday</lebel><br>
+                    <input type="radio" name="monday">Tomato Mozzarella<br>
+                    <input type="radio" name="monday">Chicken Salad<br><br>
+
+                    <lebel>Tuesday</lebel><br>
+                    <input type="radio" name="tuesday">Greek Salad Wrap<br>
+                    <input type="radio" name="tuesday">Toto Wrap<br><br>
+
+                    <lebel>Wednesday</lebel><br>
+                    <input type="radio" name="wednesday">Red Pepper Hummus<br>
+                    <input type="radio" name="wednesday">Egg Salad<br><br>
+
+                    <lebel>Thursday</lebel><br>
+                    <input type="radio" name="thursday">Carrot-Ginger Hummus Wrap<br>
+                    <input type="radio" name="thurssday">Egg Salad<br><br>
+
+                    <lebel>Friday</lebel><br>
+                    <input type="radio" name="friday">Dado Wrap<br>
+                    <input type="radio" name="friday">Tuna Salad<br><hr>
+
+                    <input type="checkbox">Gluten Free Bread(75e extra)
+                
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                <legend>Snack</legend>
+                
+                    <lebel>Snack</lebel><br>
+                    <input type="radio">Apple<br>
+                    <input type="radio">Banana<br>
+                    <input type="radio">Potato Chips<br>
+                
+                </fieldset>
+            </form>            
+               
+                <form>
+                    <fieldset>
+                        <legend>Drink</legend>
+                        <lebel>Drink</lebel><br>
+                        <select>
+                            <option>Hot Drink</option>
+                            <option>Hot Coffee</option>
+                            <option>Cold Coffee</option>
+                            <option>Mango Shake</option>
+                            <option>Almond Shake</option>
+                        </select><br><hr>
+
+                    <input type="checkbox">Large Drink(75e extra)
+
+                </form>
+            </fieldset><br>
+
+            <input type="submit" value="Place Order">
+        </form>
+    </body>
+</html>
